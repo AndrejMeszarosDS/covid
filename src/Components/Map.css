@@ -1,0 +1,40 @@
+.leaflet-fade-anim .leaflet-tile,
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  will-change: auto !important;
+}
+
+.icon-marker {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: rgb(180, 49, 49);
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(black, 0.9);
+  left: -15px;
+  top: 4px;
+}
+
+.leaflet-marker-icon {
+  width: 0 !important;
+  height: 0 !important;
+  border: 0 !important;
+}
+
+.my-map--dark .leaflet-control a {
+  background-color: black;
+  color: white;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: rgb(211, 77, 77);
+}
+
+.leaflet-popup-tip {
+  background-color: rgb(211, 77, 77);
+}
